@@ -1,42 +1,42 @@
-.heading-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0 0 50px 0;
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 50px 0;
 }
-.screen-sub-heading{
-    letter-spacing: 3px;
-    margin: 8px 0 18px 0;
-    font-size: 12px;
-    color: var(--black);
+.screen-sub-heading {
+  letter-spacing: 3px;
+  margin: 8px 0 18px 0;
+  font-size: 12px;
+  color: var(--black);
 }
-.screen-heading{
-    font-size: 32px;
-    color: #1f2235;
-    font-family: "Poppins Bold";
+.screen-heading {
+  font-size: 32px;
+  color: #1f2235;
+  font-family: "Poppins Bold";
 }
-heading-seperator{
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 180px;
-    margin: 10px 0 0 0;
+.heading-seperator {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  margin: 10px 0 0 0;
 }
-.seperator-line{
-    width: 100%;
-    height: 2px;
-    background-color: #1f2235;
+.seperator-line {
+  width: 100%;
+  height: 4px;
+  background-color: #1f2235;
 }
-.sepertor-blob{
-    height: 10px;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
+.seperator-blob {
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  display: flex;
 }
-.sepertor-blob div{
-    width: 35px;
-    border-radius: 10px;
-    background-color: var(--dark-orange);
+.seperator-blob div {
+  width: 35px;
+  border-radius: 10px;
+  background-color: var(--dark-orange);
 }
